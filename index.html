@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Static Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Left Section -->
+        <div class="left-section">
+            <img src="./images/sarimresume.jpg" alt="Profile Picture" class="profile-picture">
+            
+            <!-- Career Objective Section -->
+            <section id="objective">
+                <button id="toggle-objective" class="toggle-button">Career Objective</button>
+                <div id="objective-content" class="toggle-content">
+                    <p>
+                        Driven and dedicated, I aim to leverage my skills and knowledge to contribute effectively to a dynamic organization, enhancing my professional growth and creating meaningful impacts. Eager to utilize my expertise in software development, I am committed to achieving excellence and helping advance organizational goals.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Certification Section -->
+            <section id="certification">
+                <button id="toggle-certification" class="toggle-button">Certifications</button>
+                <div id="certification-content" class="toggle-content">
+                    <p><b>CIT:</b></p>
+                    <p><b>Artificial Intelligence, Web 3.0 & Metaverse:</b> From Governor House Karachi (ONGOING)</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <h1>Static Interactive Resume</h1>
+
+            <!-- Personal Information Section -->
+            <section id="personal-info">
+                <button id="toggle-personal-info" class="toggle-button">Personal Information</button>
+                <div id="personal-info-content" class="toggle-content">
+                    <p><b>Name:</b> Muhammad Sarim Mehboob</p>
+                    <p><b>Phone:</b> +92 3302487563</p>
+                    <p><b>Email:</b> sarimmehboob19@gmail.com</p>
+                    <p><b>Address:</b> Main Boulevard, Block-07, New York City</p>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education">
+                <button id="toggle-education" class="toggle-button">Education</button>
+                <div id="education-content" class="toggle-content">
+                    <p><b>Matriculation:</b> The Educators Professional Campus (2022-2024)</p>
+                    <p><b>Intermediate:</b> Adamjee Government Science College (2024-2026)</p>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills">
+                <button id="toggle-skills" class="toggle-button">Skills</button>
+                <div id="skills-content" class="toggle-content">
+                    <ul>
+                        <li><b>• HTML</b></li>
+                        <li><b>• CSS</b></li>
+                        <li><b>• JavaScript</b></li>
+                        <li><b>• TypeScript</b></li>
+                        <li><b>• MS Office</b></li>
+                    </ul>
+
+                    <!-- Work Experience -->
+                    <section id="Work">
+                        <button id="toggle-Work" class="toggle-button">Work Experience</button>
+                        <div id="Work-content" class="toggle-content">
+                            <ul>
+                                <li><b>• Shangri-La Pvt Limited 2022-2024</b></li>
+                                <li><b>• Supply Chain Manager</b></li>
+                                <li><b>• 2 Years Work Experience</b></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script type="module" src="script.js" defer></script> 
+</body>
+</html>
